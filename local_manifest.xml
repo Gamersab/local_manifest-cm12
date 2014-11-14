@@ -37,7 +37,7 @@
 <!-- display-caf -->
 <project path="hardware/qcom/display-caf" name="gamersab/android_hardware_qcom_display-caf" revision="cm-11.0" />
 <!-- media-caf -->
-<project path="hardware/qcom/media-caf" name="gamersab/android_hardware_qcom_media-caf" revision="cm-12.0" />
+<project path="hardware/qcom/media-caf" name="teamhacklg/android_hardware_qcom_media-caf" revision="cm-11.0" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="gamersab/android_device_htc_pico" revision="cm-12.0" />
 <project path="kernel/htc/pico" name="gamersab/android_kernel_htc_pico" revision="ion"/>
