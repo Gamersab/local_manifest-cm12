@@ -1,7 +1,7 @@
 CyanogenMod 12
 ==============
 
-The local manifests for building CM11 for HTC Explorer/Pico.
+The local manifests for building CM12 for HTC Explorer/Pico.
 
 To sync:
 
