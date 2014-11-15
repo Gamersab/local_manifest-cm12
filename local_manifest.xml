@@ -50,6 +50,6 @@
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="gamersab/android_device_htc_pico" revision="cm-12.0" />
 <project path="kernel/htc/pico" name="gamersab/android_kernel_htc_pico" revision="ion"/>
-<project path="vendor/htc/pico/proprietary" name="gamersab/vendor_htc_pico_proprietary" revision="android-4.4" />
+<project path="vendor/htc/pico/proprietary" name="gamersab/vendor_htc_pico_proprietary" revision="cm-12.0" />
 </manifest>
 
