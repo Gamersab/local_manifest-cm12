@@ -27,6 +27,14 @@
 <remove-project name="CyanogenMod/android_hardware_qcom_display-caf"/>
 <remove-project name="CyanogenMod/android_hardware_qcom_media-caf"/>	
 <remove-project name="CyanogeMod/android_external_skia"/>
+<remove-project name="CyanogenMod/android_hardware_nvidia_audio" />
+<remove-project name="CyanogenMod/android_hardware_nvidia_tegra124" />
+<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+<remove-project name="platform/hardware/ti/omap4-aah" />
+<remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+<remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+<remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+<remove-project name="CyanogenMod/android_packages_apps_Nfc" />
 <!-- misc repos -->
 <project path="frameworks/av" name="androidarmv6/android_frameworks_av" revision="cm-12.0" />
 <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-12.0" />
