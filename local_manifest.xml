@@ -25,9 +25,6 @@
 <remove-project name="CyanogenMod/android_packages_apps_Settings"/>
 <remove-project name="CyanogenMod/android_packages_apps_CMUpdater"/>
 <remove-project name="CyanogenMod/android_frameworks_webview"/>
-<remove-project name="CyanogenMod/android_hardware_qcom_display-caf"/>
-<remove-project name="CyanogenMod/android_hardware_qcom_media-caf"/>	
-<remove-project name="CyanogeMod/android_external_skia"/>
 <remove-project name="CyanogenMod/android_hardware_nvidia_audio" />
 <remove-project name="CyanogenMod/android_hardware_nvidia_tegra124" />
 <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
@@ -42,7 +39,6 @@
 <project path="external/webkit" name="androidamrv6/android_external_webkit" revision="cm-12.0" />
 <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" revision="cm-12.0" />
 <project path="frameworks/webview" name="androidarmv6/android_frameworks_webview" revision="cm-12.0" />
-<project path="external/skia" name="androidarmv6/android_external_skia" revision="cm-12.0" />
 <!-- display-caf -->
 <project path="hardware/qcom/display-caf" name="gamersab/android_hardware_qcom_display-caf" revision="cm-12.0" />
 <!-- media-caf -->
