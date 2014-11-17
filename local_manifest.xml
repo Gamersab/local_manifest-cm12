@@ -35,7 +35,7 @@
 <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
 <!-- misc repos -->
 <project path="frameworks/av" name="androidarmv6/android_frameworks_av" revision="cm-12.0" />
-<project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-12.0" />
+<project path="frameworks/native" name="androidarmv6/android_frameworks_native" revision="cm-12.0" />
 <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" revision="cm-12.0" />
 <project path="frameworks/webview" name="androidarmv6/android_frameworks_webview" revision="cm-12.0" />
 <!-- display-caf -->
