@@ -33,7 +33,9 @@
 <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
 <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
 <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+<remove-project name="CyanogenMod/android_build" />
 <!-- misc repos -->
+<project path="build" name="gamersab/android_build" revision="cm-12.0" />
 <project path="frameworks/av" name="androidarmv6/android_frameworks_av" revision="cm-12.0" />
 <project path="frameworks/native" name="androidarmv6/android_frameworks_native" revision="cm-12.0" />
 <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" revision="cm-12.0" />
