@@ -1,4 +1,6 @@
 <manifest>
+<!-- remote --> 
+<remote fetch="https://github.com/androidarmv6" name="androidarmv6" />
 <!-- Useless Stuff -->
 <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
 <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
