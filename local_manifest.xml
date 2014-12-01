@@ -37,19 +37,15 @@
 <remove-project name="CyanogenMod/android_build" />
 <remove-project name="CyanogenMod/android_frameworks_opt_telephony"/>
 <!-- Custom Repos -->
-<project path="build" name="gamersab/android_build" revision="cm-12.0" >
-<copyfile src="core/root.mk" dest="Makefile" />
-</project>
 <project path="frameworks/native" name="androidarmv6/android_frameworks_native" revision="cm-12.0" />
 <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" revision="cm-12.0" />
 <project path="frameworks/webview" name="androidarmv6/android_frameworks_webview" revision="cm-12.0" />
-<project path="frameworks/opt/telephony" name="kirmaniarslan/android_frameworks_opt_telephony" revision="cm-12.0" />
 <!-- display-caf -->
 <project path="hardware/qcom/display-caf/msm7x27a" name="gamersab/android_hardware_qcom_display" revision="cm-12.0" />
 <!-- media-caf -->
 <project path="hardware/qcom/media-caf/msm7x27a" name="gamersab/android_hardware_qcom_media" revision="cm-12.0-caf-leagcy" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="gamersab/android_device_htc_pico" revision="cm-12.0" />
-<project path="kernel/htc/pico" name="gamersab/android_kernel_htc_pico-old" revision="ion"/>
+<project path="kernel/htc/pico" name="gamersab/android_kernel_htc_pico-old" revision="cm-12.0"/>
 <project path="vendor/htc/pico/proprietary" name="gamersab/vendor_htc_pico_proprietary" revision="cm-12.0" />
 </manifest>
