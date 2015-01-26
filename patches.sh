@@ -17,18 +17,21 @@ fi
 cherries+=(79582)
 
 # Build : Add back support for msm7x27a Board
-cherries+=(79581)
-
-# Correctly provide the technology to setup data connectiion
-cherries+=(81082)
-
-# recovery: Always include ext4 stuff
-cherries+=(79803)
+#cherries+=(79581)
 
 # build: Add option to disable block-based ota
 cherries+=(78849)
 
-# Revert "Revert "Reenable support for non-PIE executables""
-cherries+=(79136)
+# Allow low RAM devices have multiple users
+cherries+=(78423)
+
+#bcmdhd: workaround for driver compiled as a module
+cherries+=(82598)
+
+# mtdutils: Fix mounting partitions by-name
+cherries+=(83404)
+
+# install: disable signature checking on eng and userdebug builds
+cherries+=(81797)
 
 ${android}/build/tools/repopick.py -b ${cherries[@]}
