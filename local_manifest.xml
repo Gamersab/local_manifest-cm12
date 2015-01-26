@@ -36,6 +36,8 @@
 <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
 <remove-project name="CyanogenMod/android_build" />
 <remove-project name="CyanogenMod/android_frameworks_opt_telephony"/>
+<!-- Recovery -->
+<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.0" />
 <!-- Custom Repos -->
 <project path="frameworks/native" name="androidarmv6/android_frameworks_native" revision="cm-12.0" />
 <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" revision="cm-12.0" />
